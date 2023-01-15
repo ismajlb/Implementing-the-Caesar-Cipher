@@ -16,7 +16,6 @@ public class WordPlay {
         }
         return sb.toString();
     }
-
     public static String emphasize(String phrase, char ch){
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < phrase.length(); i++){
